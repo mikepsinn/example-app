@@ -21,24 +21,11 @@
   },
   "options": {
     "properties": {
-      "location": {
-        "title": "Message Location",
-        "description": "Where should the message appear?",
-        "order": 0,
-        "type": "object",
-        "format": "element",
-        "default": {
-          "selector": "body",
-          "method": "prepend"
-        }
-      },
-      "message": {
-        "title": "Message",
-        "description": "A short example message.",
+      "clientId": {
+        "title": "QuantiModo Client Id",
+        "description": "Create and customize your app and get your client id at <a href='https://app.quantimo.do/builder' target='_blank'>https://app.quantimo.do/builder</a>",
         "type": "string",
-        "format": "richtext",
-        "order": 1,
-        "default": "<p>Welcome to Cloudflare Apps! This is our example app.</p><p>Download this app every time you want to make a new project.</p>"
+        "default": "quantimodo"
       }
     }
   }
