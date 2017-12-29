@@ -26,6 +26,15 @@
         "description": "Create and customize your app and get your client id at <a href='https://app.quantimo.do/builder' target='_blank'>https://app.quantimo.do/builder</a>",
         "type": "string",
         "default": "quantimodo"
+      },
+      "account": {
+        "title": "QuantiModo Account",
+        "type": "object",
+        "format": "account",
+        "services": ["quantimodo"],
+        "order": 0,
+        "description": "Login with your account to fetch your QuantiModo apps",
+        "required": true
       }
     }
   }
